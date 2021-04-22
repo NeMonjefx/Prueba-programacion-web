@@ -1,0 +1,161 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* INDEX */
+/* navbar */
+.navbar-brand{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    font-style: normal;
+}
+.titulo{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.subtitulo{
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+/* -------- */
+/* SLIDER */
+.container-slider{
+    margin-bottom: 10px;
+    
+}
+/* -------- */
+/* GALERIA DE PRODUCTOS */
+.card{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.card img{
+    border-radius: 10px;
+}
+.container-productos .card h5{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+}
+.container-productos .card p{
+    font-weight: bold;
+}
+.container-productos .card p span{
+    font-weight: normal;
+}
+.container-productos .card a{
+    margin-left: 160px;
+}
+.container-productos .card a:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+/* -------- */
+/* FORMULARIO DE REGISTRO */ /* FORMULARIO LOGIN */
+.container-registro{
+    margin: 20px auto;
+    width: 550px;
+    height: auto;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+.container-login{
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    height: 40vh;
+    width: 550px;
+}
+.container-registro h1,
+.container-login h1{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.container-registro small{
+    font-family: 'Roboto Mono', monospace;
+}
+.container-registro input,
+.container-login input{
+    border: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+}
+.container-registro select{
+    border: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+}
+.container-registro label, 
+.container-login{
+    font-weight: bold;
+}
+.container-registro .asterisco,
+.container-login .asterisco{
+    color: red;
+}
+.container-registro .obligatorio{
+    font-weight: bold;
+    color: black;
+}
+
+.terminos{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.terminos:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.container-registro button,
+.container-login button{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    margin: 10px auto;
+}
+
+@media (max-width: 768px)  {
+    .container-registro{
+        height: 70vh;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    }
+    .container-login{
+        height: 30vh;
+    }
+} 
+@media (max-width: 576px) {
+    .container-registro{
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+        box-shadow: none;
+    }
+    .container-registro h1{
+        font-size: 30px;
+    }
+    .container-login{
+        width: auto;
+        height: auto;
+        box-shadow: none;
+    }
+}
+
+/* -------- */
+
+
+/* -------- */
+
+
